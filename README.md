@@ -1,2 +1,13 @@
-# student-analytics
-A dynamic Streamlit dashboard for analyzing student quiz results. Upload raw responses and answer keys, auto-calculate scores, filter by grade, visualize performance, and export results. Built for educators to streamline assessment and gain insights in real time.
+# 📊 Student Analytics Dashboard
+
+A Streamlit app to analyze quiz results, calculate grades, and visualize performance.
+
+## Features
+- Calculates total score and percentage
+- Assigns grades (A–F)
+- Displays grade distribution chart
+- Saves graded results to CSV
+
+## How to Run
+```bash
+streamlit run dashboard/app.py
